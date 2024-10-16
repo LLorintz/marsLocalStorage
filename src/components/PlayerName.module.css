@@ -1,0 +1,48 @@
+.playerName {
+    text-align: center;
+}
+
+.playerName h1 {
+    font-size: 3rem;
+    font-weight: 300;
+    color: wheat;
+    margin-bottom: 5px;
+    cursor: pointer;
+    transition: text-shadow 0.3s ease;
+}
+
+.playerName h1:hover {
+    text-shadow: 10px 10px 10px hsla(0, 3%, 7%, 0.8);
+}
+
+.playerInput {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.playerInput input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: red
+}
+
+.playerInput button {
+    border: none;
+    background-color: red;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 2rem;
+    font-weight: 900;
+    color: var(--cream);
+    transition: all 0.2s ease;
+}
+
+.playerInput button:hover {
+    background-color: green;
+    color: var(--eerie-black);
+}
